@@ -10,6 +10,9 @@ public class Person {
     private BigInteger phoneNo;
     private String email_id;
 
+    public Person() {
+
+    }
 
     public Person(String firstName, String lastName, String address, String city, String state, int zipcode, BigInteger phoneNo, String email_id) {
         this.firstName = firstName;
@@ -88,16 +91,15 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", address='" + address + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", zipcode=" + zipcode +
-                ", phoneNo=" + phoneNo +
-                ", email_id='" + email_id + '\'' +
-                '}';
+        return "Person { " +
+                "firstName : " + firstName +
+                ", lastName : " + lastName +
+                ", address : " + address +
+                ", city : " + city +
+                ", state : " + state +
+                ", zipcode : " + zipcode +
+                ", phoneNo : " + phoneNo +
+                ", email_id : " + email_id+" }";
     }
 
 }
