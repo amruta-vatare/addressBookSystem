@@ -91,15 +91,15 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person { " +
-                "firstName : " + firstName +
-                ", lastName : " + lastName +
-                ", address : " + address +
-                ", city : " + city +
-                ", state : " + state +
-                ", zipcode : " + zipcode +
-                ", phoneNo : " + phoneNo +
-                ", email_id : " + email_id+" }";
+        return "Person Details " +"\n"+
+                " firstName : " + firstName +"\n"+
+                " lastName : " + lastName +"\n"+
+                " address : " + address +"\n"+
+                " city : " + city +"\n"+
+                " state : " + state +"\n"+
+                " zipcode : " + zipcode +"\n"+
+                " phoneNo : " + phoneNo +"\n"+
+                " email_id : " + email_id;
     }
 
 }
