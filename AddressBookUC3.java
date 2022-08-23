@@ -76,7 +76,9 @@ public class AddressBookUC3 {
     private static void display() {
         for(Person p:personContact){
             System.out.println(p.toString());
+            System.out.println("-----------------------------------------------------");
         }
+
     }
 
     private static Person addNewContact()
